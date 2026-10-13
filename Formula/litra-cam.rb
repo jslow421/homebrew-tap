@@ -1,8 +1,8 @@
 class LitraCam < Formula
   desc "Turn a Logitech Litra light on and off with your Mac's camera"
   homepage "https://github.com/jslow421/camera-light-automation"
-  url "https://github.com/jslow421/camera-light-automation/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "9b76c80a8d2d68b2dbb407409f6418114ac4c45256af139445d86522c8f6dc16"
+  url "https://github.com/jslow421/camera-light-automation/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "51d3a4da5c0c930168f9910a7b7de8196d23948fc88d974e5f8b15bc5a676e30"
   license :cannot_represent
 
   depends_on "litra"
