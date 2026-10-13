@@ -5,8 +5,8 @@ class LitraCam < Formula
   sha256 "9b76c80a8d2d68b2dbb407409f6418114ac4c45256af139445d86522c8f6dc16"
   license :cannot_represent
 
-  depends_on :macos
   depends_on "litra"
+  depends_on :macos
 
   def install
     system "swiftc", "-O", "src/litra-cam.swift", "-framework", "CoreMediaIO", "-o", "litra-cam"
@@ -29,6 +29,6 @@ class LitraCam < Formula
   end
 
   test do
-    assert_predicate bin/"litra-cam", :exist?
+    assert_path_exists bin/"litra-cam"
   end
 end
